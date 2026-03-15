@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# @mekanysmos/react-smooth-dnd Demo
 
-## Available Scripts
+Interactive demo showcasing [@mekanysmos/react-smooth-dnd](https://github.com/lucasferreiraeng/mekanysmos-react-smooth-dnd) — a modernized fork of `react-smooth-dnd` with functional components, hooks, TypeScript support, and a polymorphic `as` prop.
 
-In the project directory, you can run:
+**Live Demo:** [https://lucasferreiraeng.github.io/mekanysmos-smooth-dnd-demo/](https://lucasferreiraeng.github.io/mekanysmos-smooth-dnd-demo/)
 
-### `npm start`
+## Demo Categories
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Showcase** — Card board (Kanban-style), form elements
+- **Basic Sortables** — Default options, scroller, horizontal
+- **Groups** — Cross-group drag-and-drop, copy draggable
+- **Nested Groups** — Nested vertical sortable
+- **Advanced Options** — Lock axis, drag delay, drag handle, CSS classes, animation duration
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v16+)
+- npm or Yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+```
 
-### `npm run eject`
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Build
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Builds the app for production to the `build` folder.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Deploy to GitHub Pages
 
-## Learn More
+```bash
+npm run deploy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will build the project and publish it to GitHub Pages at [https://lucasferreiraeng.github.io/mekanysmos-smooth-dnd-demo/](https://lucasferreiraeng.github.io/mekanysmos-smooth-dnd-demo/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**To set up GitHub Pages for your fork:**
 
-### Code Splitting
+1. Go to your repository Settings > Pages
+2. Set "Source" to "Deploy from a branch"
+3. Select the `gh-pages` branch and `/ (root)` folder
+4. Run `npm run deploy` to publish
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Tech Stack
 
-### Analyzing the Bundle Size
+- **React 18** with TypeScript
+- **@mekanysmos/react-smooth-dnd** for drag-and-drop
+- **Webpack 4** bundler
+- **gh-pages** for deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Library
 
-### Making a Progressive Web App
+This demo uses [`@mekanysmos/react-smooth-dnd`](https://github.com/lucasferreiraeng/mekanysmos-react-smooth-dnd), which provides:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- **Container** — Drop container component
+- **Draggable** — Draggable item wrapper
+- Full TypeScript support with element-aware prop inference
+- Polymorphic `as` prop for rendering as any HTML element
+- Ref forwarding support
+- Backward compatibility with the legacy render prop pattern
 
-### Advanced Configuration
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+MIT
