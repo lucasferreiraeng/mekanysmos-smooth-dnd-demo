@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mekanysmos-smooth-dnd-demo/precache-manifest.7a859f2ef5059f2ca38280ef1a8044d6.js"
+  "/mekanysmos-smooth-dnd-demo/precache-manifest.493cda721232333459c2ecdd45333d54.js"
 );
 
 workbox.clientsClaim();

@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "eb2b93d2b97a0c5f7f1b",
-    "url": "/mekanysmos-smooth-dnd-demo/static/css/main.32d814b7.chunk.css"
+    "revision": "e9389abf3fd6c15d506e",
+    "url": "/mekanysmos-smooth-dnd-demo/static/css/main.b9f1b5bf.chunk.css"
   },
   {
-    "revision": "eb2b93d2b97a0c5f7f1b",
+    "revision": "e9389abf3fd6c15d506e",
     "url": "/mekanysmos-smooth-dnd-demo/static/js/main.ccaedcdc.chunk.js"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/mekanysmos-smooth-dnd-demo/static/js/2.bb60cdc5.chunk.js"
   },
   {
-    "revision": "ede0801c04d4c3d5e870430aed7368cb",
+    "revision": "761e02d9061c3ff98cfd25820b17ed62",
     "url": "/mekanysmos-smooth-dnd-demo/index.html"
   }
 ];

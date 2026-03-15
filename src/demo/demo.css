@@ -371,6 +371,15 @@ input:last-child {
   background: linear-gradient(135deg, #f1f5f9 0%, #e8ecf4 100%);
 }
 
+.card-scene > .smooth-dnd-container.horizontal {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-scene > .smooth-dnd-container.horizontal > .smooth-dnd-draggable-wrapper {
+  flex-shrink: 0;
+}
+
 .card-container {
   width: 320px;
   padding: 12px;
@@ -380,11 +389,13 @@ input:last-child {
   border-radius: 12px;
   box-shadow: none;
   border: 1px solid #e2e8f0;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-container .smooth-dnd-container {
   min-height: 40px;
+  flex: 1;
 }
 
 .card {
@@ -398,7 +409,6 @@ input:last-child {
   border: 1px solid #f1f5f9;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: grab;
-  overflow: hidden;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
