@@ -125,7 +125,7 @@ const Cards: React.FC = () => {
                   {column.name}
                 </div>
                 <Container
-                  {...column.props}
+                  orientation={column.props.orientation}
                   groupName="col"
                   onDragStart={e => console.log("drag started", e)}
                   onDragEnd={e => console.log("drag end", e)}
