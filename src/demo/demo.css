@@ -380,6 +380,11 @@ input:last-child {
   border-radius: 12px;
   box-shadow: none;
   border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+.card-container .smooth-dnd-container {
+  min-height: 40px;
 }
 
 .card {
@@ -393,6 +398,14 @@ input:last-child {
   border: 1px solid #f1f5f9;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: grab;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.5;
 }
 
 .card:hover {
