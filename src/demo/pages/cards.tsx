@@ -150,10 +150,8 @@ const Cards: React.FC = () => {
                 >
                   {column.children.map(card => {
                     return (
-                      <Draggable key={card.id}>
-                        <div {...card.props}>
+                      <Draggable key={card.id} className={card.props.className} style={card.props.style}>
                           <p>{card.data}</p>
-                        </div>
                       </Draggable>
                     );
                   })}
